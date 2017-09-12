@@ -223,4 +223,12 @@
     <string name="battery_charge_cycles_summary">This is the number of times the battery has been charged. It is a measure of how long the battery has been in use.</string>
     <string name="keywords_battery_health">battery, health, charge, cycles, capacity</string>
 
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="network_traffic_summary">Enable or disable network traffic</string>
+    <string name="network_traffic_state_title">Enable "Network traffic"</string>
+    <string name="network_options_title">Options</string>
+    <string name="network_traffic_autohide_title">Hide network traffic is inactive</string>
+    <string name="network_traffic_autohide_summary">Hide when network traffic is below 1KB/s</string>
+
 </resources>
