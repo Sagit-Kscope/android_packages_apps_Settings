@@ -52,6 +52,7 @@ public class DisplaySettings extends DashboardFragment
     private static final String KEY_STATUS_BAR_AM_PM = "status_bar_am_pm";
     private static final String KEY_STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
     private static final String KEY_STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
+    private static final String KEY_PROXIMITY_ON_WAKE = "proximity_on_wake";
 
     SecureSettingListPreference mStatusBarAmPm;
     SecureSettingListPreference mBatteryStyle;
@@ -81,6 +82,11 @@ public class DisplaySettings extends DashboardFragment
         mShowPercentage = findPreference(KEY_STATUS_BAR_SHOW_BATTERY_PERCENT);
 
         mBatteryStyle.setOnPreferenceChangeListener(this);
+
+        if (!requireContext().getResources().getBoolean(
+                com.android.internal.R.bool.config_proximityCheckOnWake)) {
+            removePreference(KEY_PROXIMITY_ON_WAKE);
+        }
     }
 
     @Override
@@ -135,6 +141,16 @@ public class DisplaySettings extends DashboardFragment
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider(R.xml.display_settings) {
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+                    if (!context.getResources().getBoolean(
+                            com.android.internal.R.bool.config_proximityCheckOnWake)) {
+                        keys.add(KEY_PROXIMITY_ON_WAKE);
+                    }
+                    return keys;
+                }
 
                 @Override
                 public List<AbstractPreferenceController> createPreferenceControllers(
