@@ -99,4 +99,7 @@
     <string name="optimized_charge_title">Optimized charging</string>
     <string name="optimized_charge_summary">Limit charging to 75%-80% to extend battery life</string>
 
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+
 </resources>
