@@ -23,6 +23,12 @@
     android:title="@string/gesture_settings_activity_title"
     settings:keywords="@string/keywords_gesture_navigation_settings">
 
+    <ink.kaleidoscope.support.preferences.SecureSettingSwitchPreference
+        android:key="navigation_bar_hint"
+        android:title="@string/hide_navbar_gesture_bar_title"
+        android:summary="@string/hide_navbar_gesture_bar_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="assistant_gesture_category"
         android:persistent="false"
