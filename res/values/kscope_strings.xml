@@ -8,6 +8,9 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Minimum refresh rate</string>
+
     <!-- Per-app volume control -->
     <string name="app_volume">App volume</string>
     <string name="app_volume_title">Per-app volume control</string>
