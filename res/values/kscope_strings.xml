@@ -5,4 +5,11 @@
     <string name="kscope_build_version">Kaleidoscope build version</string>
     <string name="kscope_version">Kaleidoscope version</string>
 
+    <!-- Color adjustment -->
+    <string name="color_mode_balance_category">Color balance</string>
+    <string name="color_mode_balance_red">Red strength</string>
+    <string name="color_mode_balance_green">Green strength</string>
+    <string name="color_mode_balance_blue">Blue strength</string>
+    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+
 </resources>
