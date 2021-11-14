@@ -253,4 +253,8 @@
     <!-- About phone settings screen, setting option name to see fonts attributions values -->
     <string name="fonts_attributions_values">OPlus Sans 2.0 fonts is copyrighted by Guangdong OPPO Mobile Telecommunications Corp., Ltd. And licensed to KaleidoscopeOS for use \"AS IS\", free and in a legitimate form.</string>
 
+    <!-- Screen off FOD -->
+    <string name="screen_off_fod_title">Screen off FOD</string>
+    <string name="screen_off_fod_summary">Keep FOD enabled when the screen is off</string>
+
 </resources>
