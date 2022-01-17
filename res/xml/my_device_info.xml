@@ -130,6 +130,16 @@
             android:summary="@string/summary_placeholder"
             android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
+
+        <!-- Kaleidoscope build version -->
+        <Preference
+            android:key="kscope_build_version"
+            android:order="43"
+            android:title="@string/kscope_build_version"
+            android:summary="@string/summary_placeholder"
+            android:selectable="false"
+            settings:enableCopying="true"
+            settings:controller="com.android.settings.deviceinfo.KscopeBuildVersionPreferenceController"/>
     </PreferenceCategory>
 
     <PreferenceCategory
