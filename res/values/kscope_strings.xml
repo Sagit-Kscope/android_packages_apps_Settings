@@ -2,6 +2,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Kaleidoscope version -->
+    <string name="kscope_build_version">Kaleidoscope build version</string>
     <string name="kscope_version">Kaleidoscope version</string>
 
 </resources>
