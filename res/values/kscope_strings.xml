@@ -26,4 +26,11 @@
     <string name="gms_disable_alert_positive_btn">Ok, I agree</string>
     <string name="gms_disable_alert_negative_btn">Cancel</string>
 
+    <!-- Statusbar category -->
+    <string name="status_bar_category_title">Statusbar</string>
+
+    <!-- SystemUI tuner -->
+    <string name="status_bar_icons_desc">Customize the visibility of statusbar icons</string>
+    <string name="status_bar_icons_title">Statusbar icon tuner</string>
+
 </resources>
