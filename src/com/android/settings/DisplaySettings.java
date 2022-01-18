@@ -19,6 +19,7 @@ package com.android.settings;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.os.Bundle;
+import android.text.format.DateFormat;
 
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.display.BrightnessLevelPreferenceController;
@@ -34,12 +35,18 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
 
+import ink.kaleidoscope.support.preferences.SecureSettingListPreference;
+
 import java.util.ArrayList;
 import java.util.List;
 
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class DisplaySettings extends DashboardFragment {
     private static final String TAG = "DisplaySettings";
+
+    private static final String KEY_STATUS_BAR_AM_PM = "status_bar_am_pm";
+
+    SecureSettingListPreference mStatusBarAmPm;
 
     @Override
     public int getMetricsCategory() {
@@ -59,6 +66,18 @@ public class DisplaySettings extends DashboardFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+
+        mStatusBarAmPm = findPreference(KEY_STATUS_BAR_AM_PM);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        if (DateFormat.is24HourFormat(requireContext())) {
+            mStatusBarAmPm.setEnabled(false);
+            mStatusBarAmPm.setSummary(R.string.status_bar_am_pm_unavailable);
+        }
     }
 
     @Override
