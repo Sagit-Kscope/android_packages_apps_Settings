@@ -145,6 +145,12 @@
             android:title="@string/tap_to_wake"
             android:summary="@string/tap_to_wake_summary"/>
 
+        <ink.kaleidoscope.support.preferences.SecureSettingSwitchPreference
+            android:key="double_tap_sleep_gesture"
+            android:title="@string/double_tap_sleep_title"
+            android:summary="@string/double_tap_sleep_desc"
+            android:defaultValue="false"/>
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"
