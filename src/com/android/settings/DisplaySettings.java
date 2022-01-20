@@ -21,6 +21,9 @@ import android.content.Context;
 import android.os.Bundle;
 import android.text.format.DateFormat;
 
+import androidx.preference.ListPreference;
+import androidx.preference.Preference;
+
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.display.BrightnessLevelPreferenceController;
 import com.android.settings.display.CameraGesturePreferenceController;
@@ -36,17 +39,23 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
 
 import ink.kaleidoscope.support.preferences.SecureSettingListPreference;
+import ink.kaleidoscope.support.preferences.SystemSettingListPreference;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
-public class DisplaySettings extends DashboardFragment {
+public class DisplaySettings extends DashboardFragment
+        implements Preference.OnPreferenceChangeListener {
     private static final String TAG = "DisplaySettings";
 
     private static final String KEY_STATUS_BAR_AM_PM = "status_bar_am_pm";
+    private static final String KEY_STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
+    private static final String KEY_STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
 
     SecureSettingListPreference mStatusBarAmPm;
+    SecureSettingListPreference mBatteryStyle;
+    SystemSettingListPreference mShowPercentage;
 
     @Override
     public int getMetricsCategory() {
@@ -68,6 +77,10 @@ public class DisplaySettings extends DashboardFragment {
         super.onCreate(icicle);
 
         mStatusBarAmPm = findPreference(KEY_STATUS_BAR_AM_PM);
+        mBatteryStyle = findPreference(KEY_STATUS_BAR_BATTERY_STYLE);
+        mShowPercentage = findPreference(KEY_STATUS_BAR_SHOW_BATTERY_PERCENT);
+
+        mBatteryStyle.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -78,6 +91,22 @@ public class DisplaySettings extends DashboardFragment {
             mStatusBarAmPm.setEnabled(false);
             mStatusBarAmPm.setSummary(R.string.status_bar_am_pm_unavailable);
         }
+
+        updateStates();
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ((ListPreference)preference).setValue((String)newValue);
+        updateStates();
+        return false;
+    }
+
+    private void updateStates() {
+        if ("2".equals(mBatteryStyle.getValue()))
+            mShowPercentage.setEnabled(false);
+        else
+            mShowPercentage.setEnabled(true);
     }
 
     @Override

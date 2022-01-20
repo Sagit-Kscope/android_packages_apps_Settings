@@ -60,4 +60,14 @@
     <string name="double_tap_sleep_title">Tap to sleep</string>
     <string name="double_tap_sleep_desc">Double-tap on the status bar, lockscreen or homescreen to turn off the display</string>
 
+    <!-- Battery style and percentage -->
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_title">Battery status style</string>
+    <string name="status_bar_battery_percentage_hidden">Hidden</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+
 </resources>
