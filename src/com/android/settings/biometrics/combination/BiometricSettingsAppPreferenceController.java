@@ -23,6 +23,7 @@ import android.hardware.face.FaceManager;
 import android.hardware.fingerprint.FingerprintManager;
 import android.provider.Settings;
 
+import com.android.settings.custom.biometrics.FaceUtils;
 import com.android.settings.Utils;
 import com.android.settings.core.TogglePreferenceController;
 import com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
@@ -69,7 +70,7 @@ public class BiometricSettingsAppPreferenceController extends TogglePreferenceCo
 
     @Override
     public int getAvailabilityStatus() {
-        if (!Utils.isMultipleBiometricsSupported(mContext)) {
+        if (!Utils.isMultipleBiometricsSupported(mContext) || FaceUtils.isFaceUnlockSupported()) {
             return UNSUPPORTED_ON_DEVICE;
         }
         if (mFaceManager == null || mFingerprintManager == null) {

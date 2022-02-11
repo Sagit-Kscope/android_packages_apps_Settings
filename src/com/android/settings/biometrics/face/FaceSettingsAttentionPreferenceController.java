@@ -25,6 +25,7 @@ import android.provider.Settings;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
 
+import com.android.settings.custom.biometrics.FaceUtils;
 import com.android.settings.Utils;
 
 /**
@@ -118,6 +119,6 @@ public class FaceSettingsAttentionPreferenceController extends FaceSettingsPrefe
 
     @Override
     public int getAvailabilityStatus() {
-        return AVAILABLE;
+        return FaceUtils.isFaceUnlockSupported() ? UNSUPPORTED_ON_DEVICE : AVAILABLE;
     }
 }

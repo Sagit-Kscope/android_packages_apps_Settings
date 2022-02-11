@@ -22,6 +22,7 @@ import android.os.UserHandle;
 import androidx.lifecycle.Lifecycle;
 import androidx.preference.Preference;
 
+import com.android.settings.custom.biometrics.FaceUtils;
 import com.android.settings.R;
 
 public class FaceProfileStatusPreferenceController extends FaceStatusPreferenceController {
@@ -46,6 +47,9 @@ public class FaceProfileStatusPreferenceController extends FaceStatusPreferenceC
 
     @Override
     public int getAvailabilityStatus() {
+        if (FaceUtils.isFaceUnlockSupported()) {
+            return UNSUPPORTED_ON_DEVICE;
+        }
         // Check if Face for Profile is available.
         final int isAvailable = super.getAvailabilityStatus();
         if (isAvailable != AVAILABLE) {

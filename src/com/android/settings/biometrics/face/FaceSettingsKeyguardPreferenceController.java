@@ -24,6 +24,7 @@ import android.provider.Settings;
 
 import androidx.preference.Preference;
 
+import com.android.settings.custom.biometrics.FaceUtils;
 import com.android.settings.Utils;
 import com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
 import com.android.settingslib.RestrictedSwitchPreference;
@@ -71,7 +72,8 @@ public class FaceSettingsKeyguardPreferenceController extends FaceSettingsPrefer
     @Override
     public int getAvailabilityStatus() {
         // When the device supports multiple biometrics auth, this preference will be unavailable.
-        return Utils.isMultipleBiometricsSupported(mContext) ? UNSUPPORTED_ON_DEVICE : AVAILABLE;
+        return Utils.isMultipleBiometricsSupported(mContext)
+                || FaceUtils.isFaceUnlockSupported() ? UNSUPPORTED_ON_DEVICE : AVAILABLE;
     }
 
     @Override

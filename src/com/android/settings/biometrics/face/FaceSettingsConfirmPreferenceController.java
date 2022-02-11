@@ -26,6 +26,7 @@ import android.provider.Settings;
 
 import androidx.preference.Preference;
 
+import com.android.settings.custom.biometrics.FaceUtils;
 import com.android.settings.Utils;
 
 import java.util.List;
@@ -79,6 +80,9 @@ public class FaceSettingsConfirmPreferenceController extends FaceSettingsPrefere
 
     @Override
     public int getAvailabilityStatus() {
+        if (FaceUtils.isFaceUnlockSupported()) {
+            return UNSUPPORTED_ON_DEVICE;
+        }
         List<FaceSensorProperties> properties = mFaceManager.getSensorProperties();
         // If a sensor is convenience, it is possible that it becomes weak or strong with
         // an update. For this reason, the sensor is conditionally unavailable.
