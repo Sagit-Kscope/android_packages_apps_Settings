@@ -85,4 +85,8 @@
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 
+    <!-- Optimized charge -->
+    <string name="optimized_charge_title">Optimized charging</string>
+    <string name="optimized_charge_summary">Limit charging to 75%-80% to extend battery life</string>
+
 </resources>
