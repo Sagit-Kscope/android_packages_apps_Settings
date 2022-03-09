@@ -23,6 +23,12 @@
     android:title="@string/gesture_settings_activity_title"
     settings:keywords="@string/keywords_gesture_navigation_settings">
 
+    <ink.kaleidoscope.support.preferences.SecureSettingSwitchPreference
+        android:key="navigation_bar_hint"
+        android:title="@string/show_navbar_gesture_bar_title"
+        android:summary="@string/show_navbar_gesture_bar_summary"
+        android:defaultValue="true" />
+
     <PreferenceCategory
         android:key="assistant_gesture_category"
         android:persistent="false"
@@ -58,12 +64,6 @@
             settings:textStart="@string/low_label"
             settings:textEnd="@string/high_label"/>
     </PreferenceCategory>
-
-    <ink.kaleidoscope.support.preferences.SecureSettingSwitchPreference
-        android:key="navigation_bar_hint"
-        android:title="@string/show_navbar_gesture_bar_title"
-        android:summary="@string/show_navbar_gesture_bar_summary"
-        android:defaultValue="true" />
 
     <com.android.settingslib.widget.FooterPreference
         android:key="gesture_navigation_settings_footer"
