@@ -14,9 +14,9 @@
     <string name="app_volume_summary">允許為每個應用設定不同的音量</string>
     <string name="gms_category">GMS</string>
     <string name="gms_enabled">開啟 Google 服務</string>
-    <string name="gms_enabled_desc">停用 Google 服務套件可能有助於延長電池使用時間，但依賴其服務的第三方應用程式將無法正常執行。</string>
+    <string name="gms_enabled_desc">停用 Google 服務可能有助於延長電池使用時間，但依賴其服務的第三方應用程式將無法正常執行。</string>
     <string name="gms_disable_alert_title">注意</string>
-    <string name="gms_disable_alert_message">您正在試圖停用 Google 服務套件。一旦您啟用了這些服務，強烈建議不要再次將其停用，因為這可能會導致您當前安裝的應用程式出現問題。雖然此開關不會觸及任何數據，但是您的相關帳號仍然會從此設備自動登出。因此，在繼續本操作之前，請確保“尋找我的設備”已停用。如有必要，請一同停用您 Google 帳戶的兩步驗證。如果您在停用服務套件後遇到任何問題，請自行恢復出廠設定，我們不為其提供任何技術支援。</string>
+    <string name="gms_disable_alert_message">您正在試圖停用 Google 服務。一旦您啟用了這些服務，強烈建議不要再次將其停用，因為這可能會導致您目前安裝的應用程式出現問題。雖然此開關不會影響任何資料，但是相關的帳號仍然會從此設備自動登出。因此，在繼續本操作之前，請確保“尋找我的設備”已停用。如有必要，請一同停用您 Google 帳戶的兩步驗證。如果您在停用 Google 服務後遇到任何問題，請自行恢復出廠設定，我們不為其提供任何技術支援。</string>
     <string name="gms_disable_alert_positive_btn">OK，我同意</string>
     <string name="gms_disable_alert_negative_btn">取消</string>
     <string name="status_bar_category_title">狀態欄</string>
@@ -48,7 +48,7 @@
     <string name="status_bar_battery_percentage_text_next">在圖示旁</string>
     <string name="status_bar_battery_percentage_title">電量百分比</string>
     <string name="torch_long_press_power_category_title">息屏手電筒</string>
-    <string name="torch_long_press_power_gesture_title">長按電源鍵以開啟手電筒</string>
+    <string name="torch_long_press_power_gesture_title">手電筒快速鍵</string>
     <string name="torch_long_press_power_gesture_desc">在螢幕關閉時，長按電源鍵開啟手電筒</string>
     <string name="torch_long_press_power_timeout_title">自動關閉手電筒</string>
     <string name="torch_long_press_power_timeout_never">永不</string>
@@ -63,6 +63,6 @@
     <string name="optimized_charge_title">最佳化充電中</string>
     <string name="optimized_charge_summary">將充電限制在 75%-80% 以延長電池壽命</string>
     <string name="connected_tws_device_saved_title">已儲存的耳機</string>
-    <string name="show_navbar_gesture_bar_title">手勢導覽條</string>
-    <string name="show_navbar_gesture_bar_summary">在螢幕底部顯示手勢導覽條</string>
+    <string name="hide_navbar_gesture_bar_title">隱藏手勢導覽條</string>
+    <string name="hide_navbar_gesture_bar_summary">在螢幕底部隱藏手勢導覽條</string>
 </resources>

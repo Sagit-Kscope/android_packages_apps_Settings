@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="kscope_build_version">Kaleidoscope 编译版本</string>
+    <string name="kscope_build_version">Kaleidoscope 编译版本号</string>
     <string name="kscope_version">Kaleidoscope 版本</string>
     <string name="color_mode_balance_category">色彩平衡</string>
     <string name="color_mode_balance_red">红色强度</string>
@@ -10,17 +10,17 @@
     <string name="min_refresh_rate_title">最低刷新率</string>
     <string name="max_refresh_rate_title">峰值刷新率</string>
     <string name="app_volume">应用音量</string>
-    <string name="app_volume_title">分应用音量调节</string>
+    <string name="app_volume_title">分应用音量控制</string>
     <string name="app_volume_summary">允许为每个应用设置不同的音量</string>
     <string name="gms_category">GMS</string>
     <string name="gms_enabled">启用 Google 服务</string>
     <string name="gms_enabled_desc">禁用 Google 服务套件可能有助于延长电池使用时间，但依赖其组件的第三方应用程序将无法正常运行。</string>
     <string name="gms_disable_alert_title">注意</string>
-    <string name="gms_disable_alert_message">您正在试图禁用 Google 服务套件。一旦您启用了这些服务，强烈建议不要再次将其禁用，因为这可能会导致您当前安装的应用程序出现问题。虽然此开关不会触及任何数据，但是您的相关账号仍然会从此设备自动登出。因此，在继续本操作之前，请确保“查找我的设备”已被禁用。如有必要，请一同禁用您 Google 账户的两步验证。如果您在禁用服务套件后遇到任何问题，请自行恢复出厂设置，我们不为其提供任何技术支持。</string>
+    <string name="gms_disable_alert_message">您正在试图禁用 Google 服务套件。一旦这些服务已被启用，强烈建议不要将其禁用，因为这可能会导致您当前已安装的应用程序出现问题。虽然此开关不会触及任何数据，但相关账号仍然会从此设备自动登出。因此，在您继续之前，请确保“查找我的设备”已禁用，并一同禁用您 Google 账户的两步验证。如果您在禁用 Google 服务套件后遇到任何问题，请自行恢复出厂设置。我们将不会为此提供任何技术支持。</string>
     <string name="gms_disable_alert_positive_btn">好，我同意</string>
     <string name="gms_disable_alert_negative_btn">取消</string>
     <string name="status_bar_category_title">状态栏</string>
-    <string name="status_bar_icons_desc">自定义状态栏图标的可见性</string>
+    <string name="status_bar_icons_desc">调整状态栏图标的可见性</string>
     <string name="status_bar_icons_title">状态栏图标调节</string>
     <string name="status_bar_clock_position_center">居中</string>
     <string name="status_bar_clock_position_left">左侧</string>
@@ -48,8 +48,8 @@
     <string name="status_bar_battery_percentage_text_next">图标外</string>
     <string name="status_bar_battery_percentage_title">电量百分比</string>
     <string name="torch_long_press_power_category_title">息屏手电筒</string>
-    <string name="torch_long_press_power_gesture_title">长按电源键以激活手电筒</string>
-    <string name="torch_long_press_power_gesture_desc">息屏时长按电源键以激活手电筒</string>
+    <string name="torch_long_press_power_gesture_title">手电筒快捷键</string>
+    <string name="torch_long_press_power_gesture_desc">屏幕关闭时长按电源键以激活手电筒</string>
     <string name="torch_long_press_power_timeout_title">自动关闭手电筒</string>
     <string name="torch_long_press_power_timeout_never">从不</string>
     <string name="torch_long_press_power_timeout_1min">1 分钟</string>
@@ -59,10 +59,10 @@
     <string name="proximity_wake_title">防止意外唤醒</string>
     <string name="proximity_wake_summary">在唤醒屏幕前检查接近传感器</string>
     <string name="three_finger_gesture">滑动截屏</string>
-    <string name="three_finger_gesture_summary">三指下划以截屏</string>
+    <string name="three_finger_gesture_summary">三指同时下滑以截取屏幕内容</string>
     <string name="optimized_charge_title">充电优化</string>
     <string name="optimized_charge_summary">将充电限制在 75%-80% 以延长电池寿命</string>
     <string name="connected_tws_device_saved_title">已保存的耳机</string>
-    <string name="show_navbar_gesture_bar_title">手势导航条</string>
-    <string name="show_navbar_gesture_bar_summary">在屏幕底部显示手势导航条</string>
+    <string name="hide_navbar_gesture_bar_title">隐藏手势导航条</string>
+    <string name="hide_navbar_gesture_bar_summary">隐藏位于屏幕底部的手势导航条</string>
 </resources>
