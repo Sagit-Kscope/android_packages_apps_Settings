@@ -66,6 +66,12 @@
     </Preference>
 
     <Preference
+        android:fragment="com.android.settings.laboratory.LaboratoryDashboardFragment"
+        android:icon="@drawable/ic_laboratory"
+        android:order="-41"
+        android:title="@string/laboratory_settings_preference_title"/>
+
+    <Preference
         android:key="reset_dashboard"
         android:title="@string/reset_dashboard_title"
         android:icon="@drawable/ic_restore"
