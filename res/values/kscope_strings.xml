@@ -99,4 +99,10 @@
     <string name="hide_navbar_gesture_bar_title">Hide gesture bar</string>
     <string name="hide_navbar_gesture_bar_summary">Hide the gesture bar at the bottom of the screen</string>
 
+    <!-- Laboratory -->
+    <string name="laboratory_settings_preference_title">Laboratory</string>
+    <string name="laboratory_settings_footer">These features are experimental. They can be unstable, have security issues or even lead to crashes and data corruption. Use them at your own risks.</string>
+    <string name="laboratory_settings_warning_title">Warning</string>
+    <string name="laboratory_settings_warning_message">These features are experimental. They can be unstable, have security issues or even lead to crashes and data corruption. Continuing means that you agreed that the Kaleidoscope team is not responsible for all consequences arising from this.</string>
+
 </resources>
