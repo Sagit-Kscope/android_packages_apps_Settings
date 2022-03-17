@@ -20,6 +20,12 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:title="@string/laboratory_settings_preference_title">
 
+    <ink.kaleidoscope.support.preferences.SecureSettingSwitchPreference
+        android:key="google_photos_spoof"
+        android:title="@string/laboratory_google_photos_unlimited_title"
+        android:summary="@string/laboratory_google_photos_unlimited_summary"
+        android:defaultValue="false"/>
+
     <com.android.settingslib.widget.FooterPreference
         android:title="@string/laboratory_settings_footer"
         android:selectable="false"
