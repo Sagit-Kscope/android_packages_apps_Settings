@@ -105,4 +105,8 @@
     <string name="laboratory_settings_warning_title">Warning</string>
     <string name="laboratory_settings_warning_message">These features are experimental. They can be unstable, have security issues or even lead to crashes and data corruption. Continuing means that you agreed that the Kaleidoscope team is not responsible for all consequences arising from this.</string>
 
+    <!-- Laboratory - Google Photos unlimited backup -->
+    <string name="laboratory_google_photos_unlimited_title">Google Photos unlimited backup</string>
+    <string name="laboratory_google_photos_unlimited_summary">This could provide you with same unlimited backup feature that Pixel 1 had. But you need to take the risk of violating terms of service. After changing this toggle, you have to restart Google Photos for the change to take effect.</string>
+
 </resources>
