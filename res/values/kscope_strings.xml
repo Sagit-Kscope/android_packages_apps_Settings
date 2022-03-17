@@ -116,4 +116,8 @@
     <string name="laboratory_google_photos_unlimited_title">Google Photos unlimited backup</string>
     <string name="laboratory_google_photos_unlimited_summary">This could provide you with same unlimited backup feature that Pixel 1 had. But you need to take the risk of violating terms of service. After changing this toggle, you have to restart Google Photos for the change to take effect.</string>
 
+    <!-- Laboratory - Application downgrade -->
+    <string name="laboratory_app_downgrade_title">Allow application downgrade</string>
+    <string name="laboratory_app_downgrade_summary">This allows you to downgrade applications. Note that this may lead to crashes and data corruption.</string>
+
 </resources>

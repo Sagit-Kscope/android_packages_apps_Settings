@@ -26,6 +26,12 @@
         android:summary="@string/laboratory_google_photos_unlimited_summary"
         android:defaultValue="false"/>
 
+    <ink.kaleidoscope.support.preferences.GlobalSettingSwitchPreference
+        android:key="pm_downgrade_allowed"
+        android:title="@string/laboratory_app_downgrade_title"
+        android:summary="@string/laboratory_app_downgrade_summary"
+        android:defaultValue="false"/>
+
     <com.android.settingslib.widget.FooterPreference
         android:title="@string/laboratory_settings_footer"
         android:selectable="false"
