@@ -38,6 +38,12 @@
         android:summary="@string/laboratory_ignore_window_secure_summary"
         android:defaultValue="false"/>
 
+    <SwitchPreference
+        android:key="skiavk"
+        android:title="@string/laboratory_skiavk_title"
+        android:summary="@string/laboratory_skiavk_summary"
+        settings:controller="com.android.settings.laboratory.SkiavkPreferenceController"/>
+
     <com.android.settingslib.widget.FooterPreference
         android:title="@string/laboratory_settings_footer"
         android:selectable="false"
