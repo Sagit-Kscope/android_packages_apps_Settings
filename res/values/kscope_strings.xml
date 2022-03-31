@@ -158,4 +158,50 @@
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 
+    <!-- Custom gesture actions -->
+    <!-- Action names -->
+    <string name="custom_gesture_action_name_none">None</string>
+    <string name="custom_gesture_action_name_camera">Open camera</string>
+    <string name="custom_gesture_action_name_screenshot">Screenshot</string>
+    <string name="custom_gesture_action_name_ringer_normal">Set ringer mode to normal</string>
+    <string name="custom_gesture_action_name_ringer_vibrate">Set ringer mode to vibrate</string>
+    <string name="custom_gesture_action_name_ringer_silent">Set ringer mode to silent</string>
+    <string name="custom_gesture_action_name_wechat_scan">Open Wechat Scan</string>
+    <string name="custom_gesture_action_name_wechat_money">Open Wechat Money</string>
+    <string name="custom_gesture_action_name_alipay_scan">Open Alipay Scan</string>
+    <string name="custom_gesture_action_name_alipay_pay">Open Alipay Pay / Collect</string>
+    <string name="custom_gesture_action_name_alipay_transport">Open Alipay Transport</string>
+    <string name="custom_gesture_action_name_alipay_healthcode">Open Alipay HealthCode</string>
+
+    <!-- Action values -->
+    <string name="custom_gesture_action_value_none" translatable="false">none</string>
+    <string name="custom_gesture_action_value_camera" translatable="false">camera</string>
+    <string name="custom_gesture_action_value_screenshot" translatable="false">screenshot</string>
+    <string name="custom_gesture_action_value_ringer_normal" translatable="false">ringermode:normal</string>
+    <string name="custom_gesture_action_value_ringer_vibrate" translatable="false">ringermode:vibrate</string>
+    <string name="custom_gesture_action_value_ringer_silent" translatable="false">ringermode:silent</string>
+    <string name="custom_gesture_action_value_wechat_scan" translatable="false">explicit:com.tencent.mm/com.tencent.mm.plugin.scanner.ui.BaseScanUI</string>
+    <string name="custom_gesture_action_value_wechat_money" translatable="false">explicit:com.tencent.mm/com.tencent.mm.plugin.offline.ui.WalletOfflineCoinPurseUI</string>
+    <string name="custom_gesture_action_value_alipay_scan" translatable="false">scheme:alipayqr://platformapi/startapp?saId=10000007</string>
+    <string name="custom_gesture_action_value_alipay_pay" translatable="false">scheme:alipays://platformapi/startapp?appId=20000056</string>
+    <string name="custom_gesture_action_value_alipay_transport" translatable="false">scheme:alipayqr://platformapi/startapp?saId=200011235</string>
+    <string name="custom_gesture_action_value_alipay_healthcode" translatable="false">scheme:alipays://platformapi/startapp?appId=68687564</string>
+
+    <!-- Power double tap action -->
+    <string name="power_double_tap_action_title">Double tap power key</string>
+
+    <!-- Power + vol down action -->
+    <string name="power_vol_down_action_title">Hold power and volume down key</string>
+
+    <!-- Key combination wakeup -->
+    <string name="key_combination_wakeup_title">Enable key combination gestures during sleep</string>
+    <string name="key_combination_wakeup_desc">This enables key combination gestures while device is sleeping. Note that this may lead to accidental triggering.</string>
+
+    <!-- Power + vol up action -->
+    <string name="power_vol_up_action_title">Hold power and volume up key</string>
+
+    <!-- Vol up + vol down action -->
+    <string name="vol_up_down_action_title">Hold volume up and volume down key</string>
+    <string name="vol_up_down_action_none">Accessibility shortcuts</string>
+
 </resources>

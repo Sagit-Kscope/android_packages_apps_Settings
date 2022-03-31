@@ -93,4 +93,126 @@
         <item>1</item>
     </string-array>
 
+    <!-- Power double tap actions -->
+    <string-array name="power_double_tap_action_entries" translatable="false">
+        <item>@string/custom_gesture_action_name_none</item>
+        <item>@string/custom_gesture_action_name_camera</item>
+        <item>@string/custom_gesture_action_name_ringer_normal</item>
+        <item>@string/custom_gesture_action_name_ringer_vibrate</item>
+        <item>@string/custom_gesture_action_name_ringer_silent</item>
+        <item>@string/custom_gesture_action_name_wechat_scan</item>
+        <item>@string/custom_gesture_action_name_wechat_money</item>
+        <item>@string/custom_gesture_action_name_alipay_scan</item>
+        <item>@string/custom_gesture_action_name_alipay_pay</item>
+        <item>@string/custom_gesture_action_name_alipay_transport</item>
+        <item>@string/custom_gesture_action_name_alipay_healthcode</item>
+    </string-array>
+
+    <string-array name="power_double_tap_action_values" translatable="false">
+        <item>@string/custom_gesture_action_value_none</item>
+        <item>@string/custom_gesture_action_value_camera</item>
+        <item>@string/custom_gesture_action_value_ringer_normal</item>
+        <item>@string/custom_gesture_action_value_ringer_vibrate</item>
+        <item>@string/custom_gesture_action_value_ringer_silent</item>
+        <item>@string/custom_gesture_action_value_wechat_scan</item>
+        <item>@string/custom_gesture_action_value_wechat_money</item>
+        <item>@string/custom_gesture_action_value_alipay_scan</item>
+        <item>@string/custom_gesture_action_value_alipay_pay</item>
+        <item>@string/custom_gesture_action_value_alipay_transport</item>
+        <item>@string/custom_gesture_action_value_alipay_healthcode</item>
+    </string-array>
+
+    <!-- Power + vol down actions -->
+    <string-array name="power_vol_down_action_entries" translatable="false">
+        <item>@string/custom_gesture_action_name_none</item>
+        <item>@string/custom_gesture_action_name_screenshot</item>
+        <item>@string/custom_gesture_action_name_camera</item>
+        <item>@string/custom_gesture_action_name_ringer_normal</item>
+        <item>@string/custom_gesture_action_name_ringer_vibrate</item>
+        <item>@string/custom_gesture_action_name_ringer_silent</item>
+        <item>@string/custom_gesture_action_name_wechat_scan</item>
+        <item>@string/custom_gesture_action_name_wechat_money</item>
+        <item>@string/custom_gesture_action_name_alipay_scan</item>
+        <item>@string/custom_gesture_action_name_alipay_pay</item>
+        <item>@string/custom_gesture_action_name_alipay_transport</item>
+        <item>@string/custom_gesture_action_name_alipay_healthcode</item>
+    </string-array>
+
+    <string-array name="power_vol_down_action_values" translatable="false">
+        <item>@string/custom_gesture_action_value_none</item>
+        <item>@string/custom_gesture_action_value_screenshot</item>
+        <item>@string/custom_gesture_action_value_camera</item>
+        <item>@string/custom_gesture_action_value_ringer_normal</item>
+        <item>@string/custom_gesture_action_value_ringer_vibrate</item>
+        <item>@string/custom_gesture_action_value_ringer_silent</item>
+        <item>@string/custom_gesture_action_value_wechat_scan</item>
+        <item>@string/custom_gesture_action_value_wechat_money</item>
+        <item>@string/custom_gesture_action_value_alipay_scan</item>
+        <item>@string/custom_gesture_action_value_alipay_pay</item>
+        <item>@string/custom_gesture_action_value_alipay_transport</item>
+        <item>@string/custom_gesture_action_value_alipay_healthcode</item>
+    </string-array>
+
+    <!-- Power + vol up actions -->
+    <string-array name="power_vol_up_action_entries" translatable="false">
+        <item>@string/custom_gesture_action_name_none</item>
+        <item>@string/custom_gesture_action_name_screenshot</item>
+        <item>@string/custom_gesture_action_name_camera</item>
+        <item>@string/custom_gesture_action_name_ringer_normal</item>
+        <item>@string/custom_gesture_action_name_ringer_vibrate</item>
+        <item>@string/custom_gesture_action_name_ringer_silent</item>
+        <item>@string/custom_gesture_action_name_wechat_scan</item>
+        <item>@string/custom_gesture_action_name_wechat_money</item>
+        <item>@string/custom_gesture_action_name_alipay_scan</item>
+        <item>@string/custom_gesture_action_name_alipay_pay</item>
+        <item>@string/custom_gesture_action_name_alipay_transport</item>
+        <item>@string/custom_gesture_action_name_alipay_healthcode</item>
+    </string-array>
+
+    <string-array name="power_vol_up_action_values" translatable="false">
+        <item>@string/custom_gesture_action_value_none</item>
+        <item>@string/custom_gesture_action_value_screenshot</item>
+        <item>@string/custom_gesture_action_value_camera</item>
+        <item>@string/custom_gesture_action_value_ringer_normal</item>
+        <item>@string/custom_gesture_action_value_ringer_vibrate</item>
+        <item>@string/custom_gesture_action_value_ringer_silent</item>
+        <item>@string/custom_gesture_action_value_wechat_scan</item>
+        <item>@string/custom_gesture_action_value_wechat_money</item>
+        <item>@string/custom_gesture_action_value_alipay_scan</item>
+        <item>@string/custom_gesture_action_value_alipay_pay</item>
+        <item>@string/custom_gesture_action_value_alipay_transport</item>
+        <item>@string/custom_gesture_action_value_alipay_healthcode</item>
+    </string-array>
+
+    <!-- Vol up + vol down actions -->
+    <string-array name="vol_up_down_action_entries" translatable="false">
+        <item>@string/vol_up_down_action_none</item>
+        <item>@string/custom_gesture_action_name_screenshot</item>
+        <item>@string/custom_gesture_action_name_camera</item>
+        <item>@string/custom_gesture_action_name_ringer_normal</item>
+        <item>@string/custom_gesture_action_name_ringer_vibrate</item>
+        <item>@string/custom_gesture_action_name_ringer_silent</item>
+        <item>@string/custom_gesture_action_name_wechat_scan</item>
+        <item>@string/custom_gesture_action_name_wechat_money</item>
+        <item>@string/custom_gesture_action_name_alipay_scan</item>
+        <item>@string/custom_gesture_action_name_alipay_pay</item>
+        <item>@string/custom_gesture_action_name_alipay_transport</item>
+        <item>@string/custom_gesture_action_name_alipay_healthcode</item>
+    </string-array>
+
+    <string-array name="vol_up_down_action_values" translatable="false">
+        <item>@string/custom_gesture_action_value_none</item>
+        <item>@string/custom_gesture_action_value_screenshot</item>
+        <item>@string/custom_gesture_action_value_camera</item>
+        <item>@string/custom_gesture_action_value_ringer_normal</item>
+        <item>@string/custom_gesture_action_value_ringer_vibrate</item>
+        <item>@string/custom_gesture_action_value_ringer_silent</item>
+        <item>@string/custom_gesture_action_value_wechat_scan</item>
+        <item>@string/custom_gesture_action_value_wechat_money</item>
+        <item>@string/custom_gesture_action_value_alipay_scan</item>
+        <item>@string/custom_gesture_action_value_alipay_pay</item>
+        <item>@string/custom_gesture_action_value_alipay_transport</item>
+        <item>@string/custom_gesture_action_value_alipay_healthcode</item>
+    </string-array>
+
 </resources>
