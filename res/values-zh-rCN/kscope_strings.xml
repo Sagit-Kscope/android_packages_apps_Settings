@@ -65,4 +65,16 @@
     <string name="connected_tws_device_saved_title">已保存的耳机</string>
     <string name="hide_navbar_gesture_bar_title">隐藏手势导航条</string>
     <string name="hide_navbar_gesture_bar_summary">隐藏位于屏幕底部的手势导航条</string>
+    <string name="laboratory_settings_preference_title">实验室</string>
+    <string name="laboratory_settings_footer">这些功能是实验性的，可能不稳定或存在安全风险，甚至导致系统崩溃和数据损坏。启用这些功能即代表您已了解潜在风险。</string>
+    <string name="laboratory_settings_warning_title">警告</string>
+    <string name="laboratory_settings_warning_message">您正在尝试开启实验性功能。这些功能可能不稳定或存在安全风险，甚至导致系统崩溃和数据损坏。继续即意味着您同意自担因使用这些功能而产生的一切后果。</string>
+    <string name="laboratory_google_photos_unlimited_title">Google 相册无限量存储空间</string>
+    <string name="laboratory_google_photos_unlimited_summary">该功能允许您在 Google 相册中使用与 Google Pixel 系列相同的无限量存储空间，但您可能会需要为此承担违反 Google 帐号条款的风险。开关此功能后，需要重新打开 Google 相册以使改动生效。</string>
+    <string name="laboratory_app_downgrade_title">允许降级应用</string>
+    <string name="laboratory_app_downgrade_summary">该功能允许您对应用程序进行降级安装，但可能导致应用程序崩溃或数据损坏。</string>
+    <string name="laboratory_ignore_window_secure_title">忽略 FLAG_SECURE 窗口标志</string>
+    <string name="laboratory_ignore_window_secure_summary">该功能将去除所有应用程序的 FLAG_SECURE 窗口标志，但在某些情况下可能会导致您的敏感数据泄露。应用程序通常会使用该标志来禁止您对窗口进行屏幕录制或截图操作。开关此功能后，需要重新打开相应的应用程序以使改动生效。</string>
+    <string name="laboratory_skiavk_title">使用 Vulkan (Skia) 进行 HWUI 渲染</string>
+    <string name="laboratory_skiavk_summary">该功能将允许系统使用与 Google Pixel 6 系列相同的 Vulkan (Skia) 作为默认 HWUI 渲染器。它或许会提供更佳的性能，但对旧应用程序的兼容性较差。</string>
 </resources>
