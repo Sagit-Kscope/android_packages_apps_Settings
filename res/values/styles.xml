@@ -814,6 +814,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginBottom">@dimen/homepage_title_margin_bottom</item>
         <item name="android:layout_marginHorizontal">@dimen/homepage_title_margin_horizontal</item>
+        <item name="android:textSize">45dp</item>
     </style>
 
     <style name="RequestManageCredentialsButtonPanel">
