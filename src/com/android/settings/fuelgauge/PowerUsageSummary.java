@@ -64,6 +64,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
     @VisibleForTesting
     static final String KEY_BATTERY_USAGE = "battery_usage_summary";
     static final String KEY_OPTIMIZED_CHARGE = "optimized_charge_enabled";
+    static final String KEY_BATTERY_HEALTH = "battery_health_enable";
 
     @VisibleForTesting
     static final int BATTERY_INFO_LOADER = 1;
@@ -183,6 +184,10 @@ public class PowerUsageSummary extends PowerUsageBase implements
 
         if (!isOptimizedChargeSupported())
             removePreference(KEY_OPTIMIZED_CHARGE);
+
+        if (!getContext().getResources().getBoolean(R.bool.config_show_battery_health)) {
+            removePreference(KEY_BATTERY_HEALTH);
+        }
     }
 
     @Override
@@ -328,6 +333,8 @@ public class PowerUsageSummary extends PowerUsageBase implements
                     List<String> keys = super.getNonIndexableKeys(context);
                     if (!isOptimizedChargeSupported())
                         keys.add(KEY_OPTIMIZED_CHARGE);
+                    if (!context.getResources().getBoolean(R.bool.config_show_battery_health))
+                        keys.add(KEY_BATTERY_HEALTH);
                     return keys;
                 }
             };

@@ -213,4 +213,14 @@
     <string name="ringer_mute_speaker_media_title">Mute media volume on silent or vibrate</string>
     <string name="ringer_mute_speaker_media_summary">Mute media volume when ringer mode is set to silent or vibrate. This affect speaker only</string>
 
+    <!-- Battery Health -->
+    <string name="battery_health_title">Battery Health</string>
+    <string name="battery_health_summary">Learn more about your battery reminding life</string>
+    <string name="battery_maximum_capacity_title">Maximum Capacity</string>
+    <string name="battery_maximum_capacity_summary">This is a measure of battery capacity relative to when it was new. Lower capacity may result in fewer hours of usage between charges.</string>
+    <string name="battery_health_footer">Phone batterie, like all rechargeable batterie, are consumable components that become less effective as they age.\n\nMaximum Capacity is a measure of battery capacity relative to when it was new. Lower capacity may result in fewer hours of usage between charges.\n\nCharge Circle is the number of times the battery has been charged. It is a measure of how long the battery has been in use.</string>
+    <string name="battery_charge_cycles_title">Charge Cycles</string>
+    <string name="battery_charge_cycles_summary">This is the number of times the battery has been charged. It is a measure of how long the battery has been in use.</string>
+    <string name="keywords_battery_health">battery, health, charge, cycles, capacity</string>
+
 </resources>

@@ -24,4 +24,19 @@
 
     <!-- Whether to show peak refresh rate in display settings -->
     <bool name="config_show_peak_refresh_rate_switch">false</bool>
+
+    <!-- Whether to show battery health -->
+    <bool name="config_show_battery_health">false</bool>
+
+    <!-- Define battery design capacity node -->
+    <string name="config_battery_capacity_design"></string>
+
+    <!-- Define battery now capacity node -->
+    <string name="config_battery_capacity_now"></string>
+
+    <!-- Define battery charge cycle node -->
+    <string name="config_battery_charge_cycle"></string>
+
+     <!-- Define Oneplus specific battery health node  -->
+    <string name="config_battery_health_oneplus"></string>
 </resources>
