@@ -128,13 +128,6 @@
         settings:controller="com.android.settings.sound.VibrateForCallsPreferenceController"
         settings:keywords="@string/keywords_vibrate_for_calls"/>
 
-    <com.android.settings.widget.PrimarySwitchPreference
-        android:key="gesture_prevent_ringing_sound"
-        android:title="@string/gesture_prevent_ringing_sound_title"
-        android:order="-80"
-        android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
-        settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController"/>
-
     <!-- Default notification ringtone -->
     <com.android.settings.DefaultRingtonePreference
         android:key="notification_ringtone"
