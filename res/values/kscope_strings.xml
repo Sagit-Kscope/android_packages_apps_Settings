@@ -187,21 +187,14 @@
     <string name="custom_gesture_action_value_alipay_transport" translatable="false">scheme:alipayqr://platformapi/startapp?saId=200011235</string>
     <string name="custom_gesture_action_value_alipay_healthcode" translatable="false">scheme:alipays://platformapi/startapp?appId=68687564</string>
 
-    <!-- Power double tap action -->
-    <string name="power_double_tap_action_title">Double tap power key</string>
-
-    <!-- Power + vol down action -->
-    <string name="power_vol_down_action_title">Hold power and volume down key</string>
-
-    <!-- Key combination wakeup -->
-    <string name="key_combination_wakeup_title">Enable key combination gestures during sleep</string>
-    <string name="key_combination_wakeup_desc">This enables key combination gestures while device is sleeping. Note that this may lead to accidental triggering.</string>
-
-    <!-- Power + vol up action -->
-    <string name="power_vol_up_action_title">Hold power and volume up key</string>
-
-    <!-- Vol up + vol down action -->
-    <string name="vol_up_down_action_title">Hold volume up and volume down key</string>
+    <!-- Quick actions -->
+    <string name="key_combination_category_title">Quick actions</string>
+    <string name="power_double_tap_action_title">Double tap Power button</string>
+    <string name="power_vol_down_action_title">Press Power and Volume Down buttons</string>
+    <string name="power_vol_up_action_title">Press Power and Volume Up buttons</string>
+    <string name="key_combination_wakeup_title">Always enable Quick actions</string>
+    <string name="key_combination_wakeup_desc">This enables combo key gestures while the display is off. Note that this may lead to accidental triggering.</string>
+    <string name="vol_up_down_action_title">Press Volume Up and Volume Down buttons</string>
     <string name="vol_up_down_action_none">Accessibility shortcuts</string>
 
     <!-- Color adjustment -->

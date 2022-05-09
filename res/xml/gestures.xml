@@ -33,48 +33,6 @@
         settings:searchable="false"
         settings:controller="com.android.settings.gestures.SwipeToNotificationPreferenceController" />
 
-    <ink.kaleidoscope.support.preferences.SecureSettingListPreference
-        android:key="power_double_tap_action"
-        android:title="@string/power_double_tap_action_title"
-        android:summary="%s"
-        android:dialogTitle="@string/power_double_tap_action_title"
-        android:entries="@array/power_double_tap_action_entries"
-        android:entryValues="@array/power_double_tap_action_values"
-        android:defaultValue="camera" />
-
-    <ink.kaleidoscope.support.preferences.SecureSettingListPreference
-        android:key="power_vol_down_action"
-        android:title="@string/power_vol_down_action_title"
-        android:summary="%s"
-        android:dialogTitle="@string/power_vol_down_action_title"
-        android:entries="@array/power_vol_down_action_entries"
-        android:entryValues="@array/power_vol_down_action_values"
-        android:defaultValue="screenshot" />
-
-    <ink.kaleidoscope.support.preferences.SecureSettingListPreference
-        android:key="power_vol_up_action"
-        android:title="@string/power_vol_up_action_title"
-        android:summary="%s"
-        android:dialogTitle="@string/power_vol_up_action_title"
-        android:entries="@array/power_vol_up_action_entries"
-        android:entryValues="@array/power_vol_up_action_values"
-        android:defaultValue="none" />
-
-    <ink.kaleidoscope.support.preferences.SecureSettingListPreference
-        android:key="vol_up_down_action"
-        android:title="@string/vol_up_down_action_title"
-        android:summary="%s"
-        android:dialogTitle="@string/vol_up_down_action_title"
-        android:entries="@array/vol_up_down_action_entries"
-        android:entryValues="@array/vol_up_down_action_values"
-        android:defaultValue="none" />
-
-    <ink.kaleidoscope.support.preferences.SecureSettingSwitchPreference
-        android:key="key_combination_wakeup"
-        android:title="@string/key_combination_wakeup_title"
-        android:summary="@string/key_combination_wakeup_desc"
-        android:defaultValue="false" />
-
     <Preference
         android:key="gesture_double_twist_input_summary"
         android:title="@string/double_twist_for_camera_mode_title"
@@ -134,6 +92,53 @@
         android:entries="@array/status_bar_quick_qs_pulldown_entries"
         android:entryValues="@array/status_bar_quick_qs_pulldown_values"
         android:defaultValue="0" />
+
+    <PreferenceCategory
+        android:title="@string/key_combination_category_title">
+
+        <ink.kaleidoscope.support.preferences.SecureSettingListPreference
+            android:key="power_double_tap_action"
+            android:title="@string/power_double_tap_action_title"
+            android:summary="%s"
+            android:dialogTitle="@string/power_double_tap_action_title"
+            android:entries="@array/power_double_tap_action_entries"
+            android:entryValues="@array/power_double_tap_action_values"
+            android:defaultValue="camera" />
+
+        <ink.kaleidoscope.support.preferences.SecureSettingListPreference
+            android:key="power_vol_down_action"
+            android:title="@string/power_vol_down_action_title"
+            android:summary="%s"
+            android:dialogTitle="@string/power_vol_down_action_title"
+            android:entries="@array/power_vol_down_action_entries"
+            android:entryValues="@array/power_vol_down_action_values"
+            android:defaultValue="screenshot" />
+
+        <ink.kaleidoscope.support.preferences.SecureSettingListPreference
+            android:key="power_vol_up_action"
+            android:title="@string/power_vol_up_action_title"
+            android:summary="%s"
+            android:dialogTitle="@string/power_vol_up_action_title"
+            android:entries="@array/power_vol_up_action_entries"
+            android:entryValues="@array/power_vol_up_action_values"
+            android:defaultValue="none" />
+
+        <ink.kaleidoscope.support.preferences.SecureSettingListPreference
+            android:key="vol_up_down_action"
+            android:title="@string/vol_up_down_action_title"
+            android:summary="%s"
+            android:dialogTitle="@string/vol_up_down_action_title"
+            android:entries="@array/vol_up_down_action_entries"
+            android:entryValues="@array/vol_up_down_action_values"
+            android:defaultValue="none" />
+
+        <ink.kaleidoscope.support.preferences.SecureSettingSwitchPreference
+            android:key="key_combination_wakeup"
+            android:title="@string/key_combination_wakeup_title"
+            android:summary="@string/key_combination_wakeup_desc"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:title="@string/torch_long_press_power_category_title">
