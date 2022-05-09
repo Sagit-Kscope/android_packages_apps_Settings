@@ -215,4 +215,8 @@
     <string name="hide_privacy_indicator_title">Hide privacy indicator</string>
     <string name="hide_privacy_indicator_summary">Hide the floating privacy indicator displayed in the screen corner. Note that this does not affect the indicator in QS panel</string>
 
+    <!-- Ringer mode mute speaker media -->
+    <string name="ringer_mute_speaker_media_title">Mute media volume on silent or vibrate</string>
+    <string name="ringer_mute_speaker_media_summary">Mute media volume when ringer mode is set to silent or vibrate. This affect speaker only</string>
+
 </resources>
