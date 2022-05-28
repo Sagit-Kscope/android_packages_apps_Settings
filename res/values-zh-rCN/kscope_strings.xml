@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="kscope_build_version">Kaleidoscope 编译版本号</string>
+    <string name="kscope_build_version">Kaleidoscope 构建版本号</string>
     <string name="kscope_version">Kaleidoscope 版本</string>
     <string name="connected_tws_device_saved_title">已保存的耳机</string>
     <string name="min_refresh_rate_title">最低刷新率</string>
@@ -60,6 +60,8 @@
     <string name="optimized_charge_summary">将充电限制在 75%-80% 以延长电池寿命</string>
     <string name="hide_navbar_gesture_bar_title">隐藏手势导航条</string>
     <string name="hide_navbar_gesture_bar_summary">隐藏位于屏幕底部的手势导航条</string>
+    <string name="keyboard_no_navigation_title">隐藏键盘导航栏</string>
+    <string name="keyboard_no_navigation_summary">隐藏屏幕键盘下方的导航栏</string>
     <string name="laboratory_settings_preference_title">实验室</string>
     <string name="laboratory_settings_footer">这些功能是实验性的，可能不稳定或存在安全风险，甚至导致系统崩溃和数据损坏。启用这些功能即代表您已了解潜在风险。</string>
     <string name="laboratory_settings_warning_title">警告</string>
@@ -114,11 +116,21 @@
     <string name="custom_gesture_action_name_alipay_pay">打开支付宝 “收付款”</string>
     <string name="custom_gesture_action_name_alipay_transport">打开支付宝 “出行”</string>
     <string name="custom_gesture_action_name_alipay_healthcode">打开支付宝 “健康码”</string>
+    <string name="key_combination_category_title">快速操作</string>
     <string name="power_double_tap_action_title">双击电源键</string>
     <string name="power_vol_down_action_title">按住电源和音量下</string>
-    <string name="key_combination_wakeup_title">在息屏时启用组合键手势</string>
-    <string name="key_combination_wakeup_desc">这将会使组合键手势在息屏待机时可用，但是这可能导致误触</string>
     <string name="power_vol_up_action_title">按住电源和音量上</string>
+    <string name="key_combination_wakeup_title">始终启用快速操作</string>
+    <string name="key_combination_wakeup_desc">这将会使组合键手势在息屏时可用，但是这可能导致误触</string>
     <string name="vol_up_down_action_title">按住音量上和音量下</string>
     <string name="vol_up_down_action_none">无障碍快捷方式</string>
+    <string name="color_mode_balance_category">色彩平衡</string>
+    <string name="color_mode_balance_red">红色强度</string>
+    <string name="color_mode_balance_green">绿色强度</string>
+    <string name="color_mode_balance_blue">蓝色强度</string>
+    <string name="keywords_color_balance">色彩、色彩平衡、色彩校正、红、绿、蓝、LiveDisplay</string>
+    <string name="hide_privacy_indicator_title">隐藏隐私指示器</string>
+    <string name="hide_privacy_indicator_summary">隐藏显示在屏幕角落的浮动隐私指示器。但是这并不影响快速设置面板中的指示器</string>
+    <string name="ringer_mute_speaker_media_title">在静音或振动时静音媒体音量</string>
+    <string name="ringer_mute_speaker_media_summary">当响铃模式设置为静音或振动时静音媒体音量。这仅影响扬声器</string>
 </resources>
