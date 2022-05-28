@@ -28,8 +28,8 @@ public class KscopeVersionPreferenceController extends BasePreferenceController 
     private String mKscopeVersion;
 
     private String getKscopeMainVersion(){
-        String[] fullVersion = SystemProperties.get("ro.kscope.build.version").split("-");
-        return fullVersion.length > 1 ? fullVersion[1] : null;
+        String[] fullVersion = SystemProperties.get("ro.kscope.version").split("-");
+        return fullVersion.length > 4 ? fullVersion[1] + " | " + fullVersion[4] + " (" + fullVersion[3] + ")" : null;
     }
 
     public KscopeVersionPreferenceController(Context context, String key) {
