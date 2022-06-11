@@ -122,6 +122,10 @@
     <string name="laboratory_skiavk_title">Use skia vulkan for hwui rendering</string>
     <string name="laboratory_skiavk_summary">This may offer better performance but worse compatibility especially with outdated applications.</string>
 
+    <!-- Laboratory - Strict standby -->
+    <string name="laboratory_strict_standby_policy_title">Strict standby policy</string>
+    <string name="laboratory_strict_standby_policy_summary">When dismissing from recents, this will force stop apps with restricted battery usage and impose stronger restrictions to them. Also, all app standby restrictions will be imposed even when device is charging.</string>
+
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>

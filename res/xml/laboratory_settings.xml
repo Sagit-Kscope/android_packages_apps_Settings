@@ -44,6 +44,12 @@
         android:summary="@string/laboratory_skiavk_summary"
         settings:controller="com.android.settings.laboratory.SkiavkPreferenceController"/>
 
+    <ink.kaleidoscope.support.preferences.GlobalSettingSwitchPreference
+        android:key="strict_standby_policy"
+        android:title="@string/laboratory_strict_standby_policy_title"
+        android:summary="@string/laboratory_strict_standby_policy_summary"
+        android:defaultValue="false"/>
+
     <com.android.settingslib.widget.FooterPreference
         android:title="@string/laboratory_settings_footer"
         android:selectable="false"
