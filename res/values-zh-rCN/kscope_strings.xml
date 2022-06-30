@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="kscope_build_version">Kaleidoscope 构建版本号</string>
     <string name="kscope_version">Kaleidoscope 版本</string>
     <string name="connected_tws_device_saved_title">已保存的耳机</string>
     <string name="min_refresh_rate_title">最低刷新率</string>
@@ -133,4 +132,21 @@
     <string name="hide_privacy_indicator_summary">隐藏显示在屏幕角落的浮动隐私指示器。但是这并不影响快速设置面板中的指示器</string>
     <string name="ringer_mute_speaker_media_title">在静音或振动时静音媒体音量</string>
     <string name="ringer_mute_speaker_media_summary">当响铃模式设置为静音或振动时静音媒体音量。这仅影响扬声器</string>
+    <string name="battery_health_title">电池健康</string>
+    <string name="battery_health_summary">了解有关电池剩余寿命的更多信息</string>
+    <string name="battery_maximum_capacity_title">最大容量</string>
+    <string name="battery_maximum_capacity_summary">相对于新电池而言的电池容量。容量较低可能导致充电后，电池使用时间缩短。</string>
+    <string name="battery_health_footer">手机电池与所有可充电的电池类似，属于易耗部件，使用时间越长，能效越低。\n\n最大容量是相对于新电池而言的电池容量。容量较低可能导致充电后，电池使用时间缩短。\n\n充电循环是电池充电的次数。这是衡量电池使用时间的一个指标。</string>
+    <string name="battery_charge_cycles_title">充电循环</string>
+    <string name="battery_charge_cycles_summary">电池充电的次数。这是衡量电池使用时间的一个指标。</string>
+    <string name="keywords_battery_health">电池，健康，充电，循环，容量。</string>
+    <string name="network_traffic_title">网速指示器</string>
+    <string name="network_traffic_summary">启用或禁用网速指示器</string>
+    <string name="network_traffic_state_title">启用“网速指示器”</string>
+    <string name="network_options_title">选项</string>
+    <string name="network_traffic_autohide_title">在不活跃时隐藏网速指示器</string>
+    <string name="network_traffic_autohide_summary">当网速低于 1KB/s 时隐藏</string>
+    <string name="reset_auto_brightness_adjustment_title">重置偏好</string>
+    <string name="reset_auto_brightness_adjustment_summary">让系统忘记您的亮度偏好并将其重置为默认值</string>
+    <string name="reset_auto_brightness_adjustment_done">自动亮度偏好已重置</string>
 </resources>
