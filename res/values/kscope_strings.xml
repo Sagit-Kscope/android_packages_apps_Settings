@@ -236,4 +236,9 @@
     <string name="reset_auto_brightness_adjustment_summary">Let the system forget your brightness preference and reset it to the default one</string>
     <string name="reset_auto_brightness_adjustment_done">Auto brightness preference has been reset</string>
 
+    <!-- About phone settings screen, setting option name to see fonts attributions -->
+    <string name="fonts_attributions">Fonts</string>
+    <!-- About phone settings screen, setting option name to see fonts attributions values -->
+    <string name="fonts_attributions_values">OPlus Sans 2.0 fonts is copyrighted by OPPO Guangdong Mobile Communication Co., Ltd. and is licensed to KaleidoscopeOS for use as is, free and in a legitimate form.</string>
+
 </resources>
