@@ -130,6 +130,10 @@
     <string name="laboratory_force_background_freezer_title">Background tasks freezer</string>
     <string name="laboratory_force_background_freezer_summary">Freeze tasks with restricted battery usage when moving them to background and unfreeze them when moving to foreground. This could save battery slightly but may lead to crashes and background ANR.</string>
 
+    <!-- Laboratory - Allow WebView implementation selection -->
+    <string name="laboratory_allow_webview_selection_title">Allow WebView implementation selection</string>
+    <string name="laboratory_allow_webview_selection_summary">Allow users to choose a WebView implementation. Choosing an implementation will result in different functionality, but may lead to compatibility or security issues. WebView must be installed in all available users. After changing this toggle, you have to reboot for the change to take effect.</string>
+
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>

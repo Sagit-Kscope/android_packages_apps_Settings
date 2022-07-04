@@ -57,6 +57,12 @@
         settings:controller="com.android.settings.laboratory.ForceBackgroundFreezePreferenceController"
         android:defaultValue="false"/>
 
+    <SwitchPreference
+        android:key="allow_webview_selection"
+        android:title="@string/laboratory_allow_webview_selection_title"
+        android:summary="@string/laboratory_allow_webview_selection_summary"
+        settings:controller="com.android.settings.laboratory.WebViewPreferenceController"/>
+
     <com.android.settingslib.widget.FooterPreference
         android:title="@string/laboratory_settings_footer"
         android:selectable="false"
