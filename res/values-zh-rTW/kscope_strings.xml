@@ -73,6 +73,12 @@
     <string name="laboratory_ignore_window_secure_summary">這將刪除所有應用程式的螢幕截圖和螢幕錄影限制。 通常，特殊應用程式會替換為截圖或是錄影中的黑色區域。 在某些情況下這可能很方便，但可能會導致隱私洩露。 更改此功能後，您可能需要重新啟動應用程式才能使變更生效。</string>
     <string name="laboratory_skiavk_title">使用 Vulkan (Skia) 進行 HWUI 渲染</string>
     <string name="laboratory_skiavk_summary">它或許會提供更佳的性能，但對舊應用程式的相容性較差。</string>
+    <string name="laboratory_strict_standby_policy_title">嚴格的應用程式待機策略</string>
+    <string name="laboratory_strict_standby_policy_summary">這將對「電池用量」受限的應用程式啟用劃卡即停，並對其施加更加嚴格的應用程式待機限制。所有限制將在電源連接時也保持執行。</string>
+    <string name="laboratory_force_background_freezer_title">墓碑後台</string>
+    <string name="laboratory_force_background_freezer_summary">這將對「電池用量」受限的應用程式啟用墓碑後台。當應用程式被移至後台時將會被凍結，移到前台時重新解凍。這能夠在一定程度上減少電量消耗，但可能造成應用程式崩潰與後台應用程式未回應。</string>
+    <string name="laboratory_allow_webview_selection_title">允許選擇 WebView</string>
+    <string name="laboratory_allow_webview_selection_summary">這將允許用戶自行選擇 WebView。不同的 WebView 會帶來不同的效果，但可能會導致相容性或安全性問題。選擇的 WebView 必須在所有使用者中均已安裝。開關此功能後，需要重新啟動裝置以使變更生效。</string>
     <string name="wifi_hotspot_hidden_ssid_title">隱藏的網路</string>
     <string name="wifi_hotspot_hidden_ssid_summary">當前設備的熱點名稱將不會出現在可用 Wi-Fi 的列表中</string>
     <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
@@ -133,7 +139,7 @@
     <string name="ringer_mute_speaker_media_title">在靜音或震動時靜音媒體音量</string>
     <string name="ringer_mute_speaker_media_summary">當鈴聲模式設定為靜音或震動時靜音媒體音量。這僅會影響喇叭</string>
     <string name="battery_health_title">電池健康</string>
-    <string name="battery_health_summary">了解有關提醒電池健康度的更多資訊</string>
+    <string name="battery_health_summary">了解有關電池健康度的更多資訊</string>
     <string name="battery_maximum_capacity_title">最大容量</string>
     <string name="battery_maximum_capacity_summary">這是相對於新電池容量的衡量標準。 較低的容量可能會導致兩次充電之間的使用時間減少。</string>
     <string name="battery_health_footer">Phone batterie, like all rechargeable batterie, are consumable components that become less effective as they age.\n\nMaximum Capacity is a measure of battery capacity relative to when it was new. Lower capacity may result in fewer hours of usage between charges.\n\nCharge Circle is the number of times the battery has been charged. It is a measure of how long the battery has been in use.
@@ -147,7 +153,9 @@
     <string name="network_options_title">選項</string>
     <string name="network_traffic_autohide_title">在不活動的狀態下隱藏網速指示計</string>
     <string name="network_traffic_autohide_summary">當網絡流量低於 1KB/s 時隱藏</string>
-    <string name="reset_auto_brightness_adjustment_title">重置偏好</string>
-    <string name="reset_auto_brightness_adjustment_summary">讓系統忘記您的亮度偏好並將其重設為預設值</string>
+    <string name="reset_auto_brightness_adjustment_title">重設偏好</string>
+    <string name="reset_auto_brightness_adjustment_summary">使系統忘記您的亮度偏好並將其重設為預設值</string>
     <string name="reset_auto_brightness_adjustment_done">自動亮度偏好已重設</string>
+    <string name="fonts_attributions">字體</string>
+    <string name="fonts_attributions_values">OPlus Sans 2.0 字體版權歸 OPPO 廣東移動通信有限公司所有。KaleidoscopeOS 在授權範圍內以原樣、免費且合理的方式使用。</string>
 </resources>
