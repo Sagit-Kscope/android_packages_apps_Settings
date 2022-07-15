@@ -250,5 +250,11 @@
             android:title="@string/network_traffic_title"
             android:summary="@string/network_traffic_summary"
             android:fragment="com.android.settings.kscope.NetworkTrafficSettings"/>
+
+        <ink.kaleidoscope.support.preferences.SecureSettingSwitchPreference
+            android:key="show_wifi_standard_icon"
+            android:title="@string/show_wifi_standard_icon_title"
+            android:summary="@string/show_wifi_standard_icon_summary"
+            android:defaultValue="false"/>
     </PreferenceCategory>
 </PreferenceScreen>
