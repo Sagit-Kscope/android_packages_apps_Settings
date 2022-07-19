@@ -7,11 +7,11 @@
     <string name="app_volume">應用程式音量</string>
     <string name="app_volume_title">個別應用控制音量</string>
     <string name="app_volume_summary">允許為每個應用設定不同的音量</string>
-    <string name="gms_category">GMS</string>
+    <string name="gms_category">Google 設定</string>
     <string name="gms_enabled">開啟 Google 服務</string>
-    <string name="gms_enabled_desc">停用 Google 服務可能有助於延長電池使用時間，但依賴其服務的第三方應用程式將無法正常執行。</string>
+    <string name="gms_enabled_desc">提供與 Google 相關的服務和應用，例如 Google Play 和 Google 帳號。建議開啟此功能，但可能會增加電池使用量。</string>
     <string name="gms_disable_alert_title">注意</string>
-    <string name="gms_disable_alert_message">您正在試圖停用 Google 服務。一旦您啟用了這些服務，強烈建議不要再次將其停用，因為這可能會導致您目前安裝的應用程式出現問題。雖然此開關不會影響任何資料，但是相關的帳號仍然會從此設備自動登出。因此，在繼續本操作之前，請確保“尋找我的設備”已停用。如有必要，請一同停用您 Google 帳戶的兩步驗證。如果您在停用 Google 服務後遇到任何問題，請自行恢復出廠設定，我們不為其提供任何技術支援。</string>
+    <string name="gms_disable_alert_message">您正在試圖禁用 Google 服務套件。一旦這些服務已被啟用，強烈建議保持啟用狀態。否則可能會導致您當前已安裝的應用程式出現問題。雖然此開關不會觸及任何數據，但相關帳號仍然會從此設備自動登出。因此，在您繼續之前，請確保“查找我的設備”已禁用，並一同禁用您 Google 帳戶的兩步驗證。如果您在禁用 Google 服務套件後遇到任何問題，請自行恢復出廠設置。我們將不會為此提供任何技術支援。</string>
     <string name="gms_disable_alert_positive_btn">OK，我同意</string>
     <string name="gms_disable_alert_negative_btn">取消</string>
     <string name="status_bar_category_title">狀態欄</string>

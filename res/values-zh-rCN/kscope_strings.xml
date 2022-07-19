@@ -7,11 +7,11 @@
     <string name="app_volume">应用音量</string>
     <string name="app_volume_title">分应用音量控制</string>
     <string name="app_volume_summary">允许为每个应用设置不同的音量</string>
-    <string name="gms_category">GMS</string>
+    <string name="gms_category">Google 设置</string>
     <string name="gms_enabled">启用 Google 服务</string>
-    <string name="gms_enabled_desc">禁用 Google 服务套件可能有助于延长电池使用时间，但依赖其组件的第三方应用程序将无法正常运行。</string>
+    <string name="gms_enabled_desc">提供与 Google 相关的服务和应用，例如 Google Play 和 Google 帐号。建议开启此功能，但可能会增加电池使用量。</string>
     <string name="gms_disable_alert_title">注意</string>
-    <string name="gms_disable_alert_message">您正在试图禁用 Google 服务套件。一旦这些服务已被启用，强烈建议不要将其禁用，因为这可能会导致您当前已安装的应用程序出现问题。虽然此开关不会触及任何数据，但相关账号仍然会从此设备自动登出。因此，在您继续之前，请确保“查找我的设备”已禁用，并一同禁用您 Google 账户的两步验证。如果您在禁用 Google 服务套件后遇到任何问题，请自行恢复出厂设置。我们将不会为此提供任何技术支持。</string>
+    <string name="gms_disable_alert_message">您正在试图禁用 Google 服务套件。一旦这些服务已被启用，强烈建议保持启用状态。否则可能会导致您当前已安装的应用程序出现问题。虽然此开关不会触及任何数据，但相关账号仍然会从此设备自动登出。因此，在您继续之前，请确保“查找我的设备”已禁用，并一同禁用您 Google 账户的两步验证。如果您在禁用 Google 服务套件后遇到任何问题，请自行恢复出厂设置。我们将不会为此提供任何技术支持。</string>
     <string name="gms_disable_alert_positive_btn">好，我同意</string>
     <string name="gms_disable_alert_negative_btn">取消</string>
     <string name="status_bar_category_title">状态栏</string>
