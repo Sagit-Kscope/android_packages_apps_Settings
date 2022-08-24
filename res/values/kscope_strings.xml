@@ -134,6 +134,10 @@
     <string name="laboratory_allow_webview_selection_title">Allow WebView implementation selection</string>
     <string name="laboratory_allow_webview_selection_summary">Allow users to choose a WebView implementation. Choosing an implementation will result in different functionality, but may lead to compatibility or security issues. WebView must be installed in all available users. After changing this toggle, you have to reboot for the change to take effect.</string>
 
+    <!-- Laboratory - Parallel space -->
+    <string name="laboratory_parallel_space_title">Parallel space</string>
+    <string name="laboratory_parallel_space_summary">Allow running multiple instances of the same application in parallel.</string>
+
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
