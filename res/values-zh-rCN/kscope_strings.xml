@@ -167,4 +167,13 @@
     <string name="status_bar_lyric_options_title">选项</string>
     <string name="disguise_props_for_music_app_title">对音乐应用伪装设备</string>
     <string name="disguise_props_for_music_app_summary">在一些音乐应用中伪装设备以支持状态栏歌词。更改此开关后，您必须重新启动相关应用才能使更改生效。</string>
+    <string name="battery_light_settings">充电指示灯</string>
+    <string name="battery_light_enable">电量指示灯</string>
+    <string name="battery_light_allow_on_dnd_title">勿扰模式下启用充电指示灯</string>
+    <string name="battery_light_low_blinking_title">低电量时闪烁指示灯</string>
+    <string name="battery_light_cat">充电时电量指示灯颜色</string>
+    <string name="battery_light_low_color">低电量</string>
+    <string name="battery_light_medium_color">中等电量</string>
+    <string name="battery_light_full_color">电量将满</string>
+    <string name="battery_light_reallyfull_color">满电 (100%)</string>
 </resources>
