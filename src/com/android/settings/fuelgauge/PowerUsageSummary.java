@@ -28,6 +28,8 @@ import android.os.IBinder;
 import android.os.RemoteException;
 import android.os.ServiceManager;
 import android.provider.Settings.Global;
+import androidx.preference.PreferenceGroup;
+import androidx.preference.PreferenceScreen;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.loader.app.LoaderManager;
@@ -63,6 +65,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
     static final String KEY_BATTERY_ERROR = "battery_help_message";
     @VisibleForTesting
     static final String KEY_BATTERY_USAGE = "battery_usage_summary";
+    private static final String KEY_BATTERY_CHARGING_LIGHT = "battery_charging_light";
     static final String KEY_OPTIMIZED_CHARGE = "optimized_charge_enabled";
     static final String KEY_BATTERY_HEALTH = "battery_health_enable";
 
@@ -82,6 +85,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
     LayoutPreference mBatteryLayoutPref;
     @VisibleForTesting
     BatteryInfo mBatteryInfo;
+    Preference mBatteryLightPref;
 
     @VisibleForTesting
     BatteryHeaderPreferenceController mBatteryHeaderPreferenceController;
@@ -181,7 +185,14 @@ public class PowerUsageSummary extends PowerUsageBase implements
         }
         mBatteryTipPreferenceController.restoreInstanceState(icicle);
         updateBatteryTipFlag(icicle);
-
+        
+	mBatteryLightPref = (Preference) findPreference(KEY_BATTERY_CHARGING_LIGHT);
+	PreferenceScreen prefSet = getPreferenceScreen();
+	if (!getResources()
+                .getBoolean(com.android.internal.R.bool.config_intrusiveBatteryLed))
+	{
+		prefSet.removePreference(mBatteryLightPref);
+	}
         if (!isOptimizedChargeSupported())
             removePreference(KEY_OPTIMIZED_CHARGE);
 
