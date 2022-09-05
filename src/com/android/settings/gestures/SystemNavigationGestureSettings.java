@@ -18,6 +18,7 @@ package com.android.settings.gestures;
 
 import static android.os.UserHandle.USER_CURRENT;
 import static android.provider.Settings.Secure.ACCESSIBILITY_BUTTON_MODE_FLOATING_MENU;
+import static android.provider.Settings.Secure.NAVIGATION_BAR_INVERSE;
 import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_2BUTTON_OVERLAY;
 import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_3BUTTON_OVERLAY;
 import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_GESTURAL_OVERLAY;
@@ -52,6 +53,8 @@ import com.android.settingslib.widget.CandidateInfo;
 import com.android.settingslib.widget.IllustrationPreference;
 import com.android.settingslib.widget.RadioButtonPreference;
 
+import ink.kaleidoscope.support.preferences.SecureSettingSwitchPreference;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -76,6 +79,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
     private IOverlayManager mOverlayManager;
 
     private IllustrationPreference mVideoPreference;
+    private SecureSettingSwitchPreference mInversionPref;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -111,6 +115,12 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
         mVideoPreference = new IllustrationPreference(context);
         setIllustrationVideo(mVideoPreference, getDefaultKey());
 
+        mInversionPref = new SecureSettingSwitchPreference(context);
+        mInversionPref.setKey(NAVIGATION_BAR_INVERSE);
+        mInversionPref.setTitle(R.string.inverse_navigation_bar_title);
+        mInversionPref.setSummary(R.string.inverse_navigation_bar_summary);
+        mInversionPref.setDefaultValue(Boolean.FALSE);
+
         migrateOverlaySensitivityToSettings(context, mOverlayManager);
     }
 
@@ -139,6 +149,8 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
             screen.addPreference(pref);
         }
         mayCheckOnlyRadioButton();
+
+        screen.addPreference(mInversionPref);
     }
 
     @Override

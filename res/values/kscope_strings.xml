@@ -273,4 +273,8 @@
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
 
+    <!-- Navigation bar inversion -->
+    <string name="inverse_navigation_bar_title">Inverse navigation bar</string>
+    <string name="inverse_navigation_bar_summary">Inverse the layout direction of navigation bar</string>
+
 </resources>
