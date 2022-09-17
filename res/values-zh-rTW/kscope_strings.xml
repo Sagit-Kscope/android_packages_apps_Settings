@@ -79,6 +79,8 @@
     <string name="laboratory_force_background_freezer_summary">這將對「電池用量」受限的應用程式啟用墓碑後台。當應用程式被移至後台時將會被凍結，移到前台時重新解凍。這能夠在一定程度上減少電量消耗，但可能造成應用程式崩潰與後台應用程式未回應。</string>
     <string name="laboratory_allow_webview_selection_title">允許選擇 WebView</string>
     <string name="laboratory_allow_webview_selection_summary">這將允許用戶自行選擇 WebView。不同的 WebView 會帶來不同的效果，但可能會導致相容性或安全性問題。選擇的 WebView 必須在所有使用者中均已安裝。開關此功能後，需要重新啟動裝置以使變更生效。</string>
+    <string name="laboratory_parallel_space_title">平行空間</string>
+    <string name="laboratory_parallel_space_summary">允許並行執行同一應用程式的多個實例。</string>
     <string name="wifi_hotspot_hidden_ssid_title">隱藏的網路</string>
     <string name="wifi_hotspot_hidden_ssid_summary">當前設備的熱點名稱將不會出現在可用 Wi-Fi 的列表中</string>
     <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
@@ -142,8 +144,7 @@
     <string name="battery_health_summary">了解有關電池健康度的更多資訊</string>
     <string name="battery_maximum_capacity_title">最大容量</string>
     <string name="battery_maximum_capacity_summary">這是相對於新電池容量的衡量標準。 較低的容量可能會導致兩次充電之間的使用時間減少。</string>
-    <string name="battery_health_footer">Phone batterie, like all rechargeable batterie, are consumable components that become less effective as they age.\n\nMaximum Capacity is a measure of battery capacity relative to when it was new. Lower capacity may result in fewer hours of usage between charges.\n\nCharge Circle is the number of times the battery has been charged. It is a measure of how long the battery has been in use.
-與所有可充電電池一樣，手機電池是消耗品，隨著時間的推移會變得越來越衰弱。\n\n最大容量是衡量電池容量相對於新電池時的容量。 較低的容量可能會導致兩次充電之間的使用時間減少。\n\n充電循環是電池已充電的次數。 它是衡量電池已使用多長時間的指標。</string>
+    <string name="battery_health_footer">與所有可充電電池一樣，手機電池是消耗品，隨著時間的推移會變得越來越衰弱。\n\n最大容量是衡量電池容量相對於新電池時的容量。 較低的容量可能會導致兩次充電之間的使用時間減少。\n\n充電循環是電池已充電的次數。 它是衡量電池已使用多長時間的指標。</string>
     <string name="battery_charge_cycles_title">充電循環</string>
     <string name="battery_charge_cycles_summary">這是電池已充電的次數。 它是衡量電池已使用多長時間的指標。</string>
     <string name="keywords_battery_health">電池，健康，充電，循環，容量</string>
@@ -168,4 +169,8 @@
     <string name="status_bar_lyric_options_title">選項</string>
     <string name="disguise_props_for_music_app_title">對音樂應用偽裝設備</string>
     <string name="disguise_props_for_music_app_summary">在一些音樂應用中偽裝設備以支持狀態欄歌詞。更改此開關後，您必須重新啟動相關程式才能使更改生效。</string>
+    <string name="global_actions_advanced_reboot_title">開啟進階重新啟動選單</string>
+    <string name="global_actions_advanced_reboot_summary">在電源選單中顯示 Recovery 和 Bootloader 選項</string>
+    <string name="inverse_navigation_bar_title">反向導覽列</string>
+    <string name="inverse_navigation_bar_summary">反轉導覽列的圖示順序</string>
 </resources>
