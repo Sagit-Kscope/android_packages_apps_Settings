@@ -79,6 +79,8 @@
     <string name="laboratory_force_background_freezer_summary">这将对“电池用量”受限的应用启用墓碑后台。当应用被移至后台时将会被冻结，移到前台时重新解冻。这能够在一定程度上减少电量消耗，但可能造成应用崩溃与后台应用未响应。</string>
     <string name="laboratory_allow_webview_selection_title">允许选择 WebView 实现</string>
     <string name="laboratory_allow_webview_selection_summary">这将允许用户自行选择 WebView 实现。不同的 WebView 实现会带来不同的特性，但可能会导致兼容性或安全性问题。选择的 WebView 必须在所有用户中均已安装。开关此功能后，需要重新启动设备以使改动生效。</string>
+    <string name="laboratory_parallel_space_title">平行空间</string>
+    <string name="laboratory_parallel_space_summary">允许同时运行同一应用程序的多个实例</string>
     <string name="wifi_hotspot_hidden_ssid_title">隐藏的网络</string>
     <string name="wifi_hotspot_hidden_ssid_summary">当前设备的热点名将不会出现在可用 WLAN 的列表中</string>
     <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
@@ -177,4 +179,8 @@
     <string name="battery_light_medium_color">中等电量</string>
     <string name="battery_light_full_color">电量将满</string>
     <string name="battery_light_reallyfull_color">满电 (100%)</string>
+    <string name="global_actions_advanced_reboot_title">启用高级重启</string>
+    <string name="global_actions_advanced_reboot_summary">在电源菜单中显示重启到 Recovery 和 Bootloader 的选项</string>
+    <string name="inverse_navigation_bar_title">反转导航栏</string>
+    <string name="inverse_navigation_bar_summary">反转导航栏的布局</string>
 </resources>
